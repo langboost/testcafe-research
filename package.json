@@ -1,0 +1,14 @@
+{
+  "name": "testcafe-research",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "npm install",
+    "homepage-test": "./node_modules/.bin/testcafe chrome ./src/homepage-tests.js",
+    "run-all-tests": "echo TODO...how can we run all tests here..."
+  },
+  "dependencies": {
+    "testcafe": "^1.8.8"
+  },
+  "devDependencies": {}
+}
